@@ -26,9 +26,9 @@ Requirements:
 * numba
 
 
-**Install Options**
+**Install**
 
-PyPI install, presuming you have numba and sklearn and all its requirements
+JointEL uses Jvis-learn package, which we have developed previously. PyPI install, presuming you have numba and sklearn and all its requirements
 (numpy and scipy) installed:
 
 
