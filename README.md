@@ -1,5 +1,3 @@
-
-
 ====
 JointEL
 ====
@@ -21,6 +19,7 @@ Installing
 
 Requirements:
 
+
 * Python 3.6 or greater
 * numpy
 * scipy
@@ -33,14 +32,11 @@ Requirements:
 PyPI install, presuming you have numba and sklearn and all its requirements
 (numpy and scipy) installed:
 
-.. code:: bash
 
     pip install Jvis-learn
 
 If you have a problem with pip installation then we'd suggest installing
 the dependencies manually using anaconda followed by pulling umap from pip:
-
-.. code:: bash
 
     conda install numpy 
     conda install scipy==1.5.3
