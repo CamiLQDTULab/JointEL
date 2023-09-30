@@ -1,17 +1,4 @@
 JointEL
-====
-
-Emerging single-cell technologies profile different modalities of data in the same cell,  providing opportunities to study cellular population
-and cell development at a resolution that was previously inaccessible. The first and most fundamental step in analyzing single-cell multimodal data
-is the identification of the cell types in the data using clustering analysis and classification. However, combining different data modalities for
-the classification task in multimodal data remains a computational challenge. We propose an approach for identifying cell types in multimodal omics 
-data via joint dimensionality reduction. We first introduce a general framework that extends loss based dimensionality reduction methods such as 
-nonnegative matrix factorization and UMAP to multimodal omics data. Our approach can learn the relative contribution of each modality to a concise 
-representation of cellular identity that enhances discriminative features and decreases the effect of noisy features. The precise representation of
-the multimodal data in a low dimensional space improves the predictivity of classification methods. 
-In our experiments using both synthetic and real data, we show that our framework produces unified embeddings that agree with known cell types and allows
-the predictive algorithms to annotate the cell types more  accurately than state-of-the-art classification methods. 
-
 ----------
 Installing
 ----------
